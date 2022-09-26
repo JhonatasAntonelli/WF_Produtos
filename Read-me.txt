@@ -1,6 +1,6 @@
 create database db_lojaProdutos;
 use db_lojaProdutos;
-create table contato (
+create table produtos (
 id int auto_increment,
 codigo varchar (150),
 nome varchar (150),

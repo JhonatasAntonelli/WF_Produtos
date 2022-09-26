@@ -1,0 +1,10 @@
+create database db_lojaProdutos;
+use db_lojaProdutos;
+create table contato (
+id int auto_increment,
+codigo varchar (150),
+nome varchar (150),
+descricao varchar (150),
+quantidade int,
+preco double,
+primary key(id));

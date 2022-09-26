@@ -67,7 +67,7 @@ namespace WF_Produtos
 
                     comando.ExecuteReader();
 
-                    MessageBox.Show("Produto incerido com sucesso!");
+                    MessageBox.Show("Produto inserido com sucesso!");
 
                     LimpaForm();
                 }
